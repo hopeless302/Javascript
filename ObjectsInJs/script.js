@@ -13,4 +13,4 @@ const students = [
     { name: 'David Brown', age: 17 }
 ];
 
-console.log(students[0].age); 
+console.log(students[0].age); //this is testing
