@@ -1,16 +1,30 @@
-const student = {
-    'name': 'John Doe',
-    age: 16
+function saveToDB(data) {
+    let internetSpeed = Math.floor(Math.random() * 10 + 1)
+    console.log(internetSpeed);
+    if (internetSpeed > 5) {
+        console.log("You Data is saved in DB", data);
+    } else if (internetSpeed <= 5) {
+        console.log("Your internet is slow");
+    }
 }
 
-console.log(student['name']);
+saveToDB("My Data");
 
-const students = [
-    { name: 'John Doe', age: 16 },
-    { name: 'Jane Smith', age: 17 },
-    { name: 'Mike Johnson', age: 18 },
-    { name: 'Sarah Williams', age: 16 },
-    { name: 'David Brown', age: 17 }
-];
+//using callback function
+function saveToDbUsingCallBack(data, success, failure) {
+    let internetSpeed = Math.floor(Math.random() * 10 + 1)
+    console.log(internetSpeed);
+    if (internetSpeed > 5) {
+        success(data);
+    } else if (internetSpeed <= 5) {
+        failure();
+    }
+}
 
-console.log(students[0].age); 
+saveToDbUsingCallBack("My Data", (data) => {
+    console.log("Your data is saved in DB" , data);
+},
+ () => {
+    console.log("Your internet is slow");
+}
+);
