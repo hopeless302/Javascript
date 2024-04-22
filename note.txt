@@ -6,9 +6,11 @@ bycrptjs npm pakage  //npm pakage to portect password
 
 json-server npm pakage //For local api data or managing the login localy
 
-Formik & use react form // For hadling forms in react "use react form is the latest"
+Formik & use react form // For hadling forms in react "use react form is the latest"   "YOU NEED YUP IN FORMIK FOR VALIDATION"
 
 https://echarts.apache.org/en/index.html  //npm pakage to manage graph like monkey types result graphs
+
+https://logoipsum.com/ // For logos best website
 
    ------------
 The Temp mail Github Account 
