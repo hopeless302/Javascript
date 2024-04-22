@@ -1,1 +1,19 @@
-This is just a simple text
+This is just a simple text 
+
+https://hoppscotch.io/    // To Test the api online and don't require any login also 
+
+bycrptjs npm pakage  //npm pakage to portect password
+
+json-server npm pakage //For local api data or managing the login localy
+
+Formik & use react form // For hadling forms in react "use react form is the latest"
+
+https://echarts.apache.org/en/index.html  //npm pakage to manage graph like monkey types result graphs
+
+   ------------
+The Temp mail Github Account 
+
+userName: thisDotTemp
+Password: Temp@12390
+
+   ----------
