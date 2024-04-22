@@ -11,6 +11,8 @@
 // saveToDB("My Data");
 
 //using callback function
+
+// THIS IS ALSO CALLED AS CALLBACK HELL 
 function saveToDbUsingCallBack(data, success, failure) {
     let internetSpeed = Math.floor(Math.random() * 10 + 1)
     console.log(internetSpeed);
