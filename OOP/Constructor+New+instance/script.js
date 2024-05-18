@@ -10,17 +10,17 @@ let person2 = new Person("Bob", 25);
 
 // Accessing properties of objects
 console.log(person1.name); // Output: Alice
-console.log(person2.age);  // Output: 25
+console.log(person2.age); // Output: 25
 
 
-function createCircte( radius) {
+function createcircle(radius) {
     return {
-    radius,
-    draw: function() {
-    console. tog( 'draw' ) ;
-    }
+        radius,
+        draw: function () {
+            console.tog('draw');
+        }
     };
-    }
-   
-    const circle  = createCirc1e(1);
-    circle. draw( ) ;
+}
+
+const circle = createcircl(1);
+circle.draw();
