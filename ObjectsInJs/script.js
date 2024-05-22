@@ -33,3 +33,17 @@ const students = [{
 ];
 
 console.log(students[0].age);
+
+// This is Object Destructuring 
+
+console.log("// Object Destructuring");
+
+const objD = {
+    name: "Ali",
+    age: 28,
+    class: "BSCS"
+}
+
+let {name, ages, classes} = objD
+
+console.log(name);
