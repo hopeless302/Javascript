@@ -1,3 +1,5 @@
+// https://chatgpt.com/share/670a8b41-ada8-800e-be18-55557d40df75    //The document link for class Men really useful 
+
 // Defining the Men class
 class Men {
     constructor(responsibility, emotionalMaturity, selfIdentity, longTermThinking, commitment, independence) {
